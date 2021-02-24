@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:background="@color/black25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="@string/linka"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarTitleTextSize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="bottom"
+                android:text="@string/direction"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarTitleTextSize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="bottom"
+                android:text="@string/lowfloor"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarTitleTextSize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:gravity="bottom"
+                android:text="@string/departure"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarTitleTextSize" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/black50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/lineNumberTv1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/finalStopTv1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/isLowFloorTv1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/departureTv1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:gravity="end"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/black25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/lineNumberTv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/DeepSkyBlue"
+            android:textSize="@dimen/TopBarLineTS" />
+
+        <TextView
+            android:id="@+id/finalStopTv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textColor="@color/DeepSkyBlue"
+            android:textSize="@dimen/TopBarLineTS" />
+
+        <TextView
+            android:id="@+id/isLowFloorTv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:textColor="@color/DeepSkyBlue"
+            android:textSize="@dimen/TopBarLineTS" />
+
+        <TextView
+            android:id="@+id/departureTv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:gravity="end"
+            android:textColor="@color/DeepSkyBlue"
+            android:textSize="@dimen/TopBarLineTS" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/black50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/lineNumberTv3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/finalStopTv3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/isLowFloorTv3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/departureTv3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:gravity="end"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/black25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lineNumberTv4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/finalStopTv4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/isLowFloorTv4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/departureTv4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:gravity="end"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/black50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lineNumberTv5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/finalStopTv5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/isLowFloorTv5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/departureTv5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:gravity="end"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/black25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lineNumberTv6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/finalStopTv6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/isLowFloorTv6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+
+            <TextView
+                android:id="@+id/departureTv6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:gravity="end"
+                android:textColor="@color/DeepSkyBlue"
+                android:textSize="@dimen/TopBarLineTS" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

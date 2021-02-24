@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="DeepSkyBlue">#00bfff</color>
+    <color name="black50">#80000000</color>
+    <color name="black25">#40000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="redPressed">#bfff0000</color>
+
+
+    <color name="lineOne">#e21e23</color>
+    <color name="lineTwo">#4ab95d</color>
+    <color name="lineThree">#009e9e</color>
+    <color name="lineFour">#ee7e1e</color>
+    <color name="lineFive">#f31d7f</color>
+    <color name="lineSix">#0777c1</color>
+    <color name="lineSeven">#e21e23</color>
+    <color name="lineEight">#ffcb31</color>
+    <color name="lineNine">#8c4a9a</color>
+    <color name="lineTen">#a05a2c</color>
+    <color name="lineEleven">#afca28</color>
+    <color name="lineTwelve">#00ccff</color>
+    <color name="lineThirteen">#ac0a5f</color>
+    <color name="lineFourteen">#ff8080</color>
+
+    <color name="lineTroley">#008033</color>
+    <color name="lineMhd">#2c89c8</color>
+    <color name="lineNight">#000000</color>
+
+    <color name="yellow">#f7df44</color>
+    <color name="mapDay">#ffa500</color>
+    <color name="mapNight">#9400d3</color>
+    <color name="departure">#0000fa</color>
+
+    <color name="cyan">#00FFFF</color>
+    <color name="navy75">#BF000080</color>
+    <color name="mediumBlue85">#D90000CD</color>
+    <color name="gold">#FFD700</color>
+    <color name="lime">#00FF00</color>
+</resources>

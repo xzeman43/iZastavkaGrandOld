@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">iZastavka</string>
+    <string name="line_timetable">Jízdní řády</string>
+    <string name="line_plan">Plán linek</string>
+    <string name="search_departure">Odjezd</string>
+    <string name="search_arrival">Příjezd</string>
+    <string name="search_search">Vyhledat</string>
+    <string name="accessibility_service_name">Detekce Nechtěných Oken</string>
+    <string name="accessibility_service_description">Tato služba se stará o detekci oken, které narušují chod kiosku.</string>
+</resources>

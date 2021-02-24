@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">25sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">30sp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">120sp</dimen>
+    <dimen name="design_bottom_navigation_item_max_width" tools:override="true">5000sp</dimen>
+    <dimen name="design_bottom_navigation_item_min_width" tools:override="true">50sp</dimen>
+    <dimen name="TopBarLineTS">38sp</dimen>
+    <dimen name="smaller">20sp</dimen>
+    <dimen name="topbar_text">16sp</dimen>
+
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iZastavka</string>
+    <string name="line_timetable">Time tables</string>
+    <string name="line_plan">Line plan</string>
+    <string name="search_departure">Departure</string>
+    <string name="search_arrival">Arrival</string>
+    <string name="search_search">Search</string>
+</resources>
